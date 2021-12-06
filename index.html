@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="cifras.js"></script>  
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>CODIFIQUE OU MORRA</title>
+</head>
+<body>
+
+<main>
+
+    <form>
+        <div class="formulario">
+
+            <h1>CODI-FY</h1>
+
+            <input type="text" class="texto-form" placeholder="Digite o texto a ser codificado aqui!" name="mensagem" id="mensagem" required>
+           
+        <div class="escolha-cifra">
+            <select name="cifras" id="cifras">
+                <option value="" disabled selected>Escolha a Cifra</option>
+                <option value="cesar">Cifra de César</option>
+                <option value="base64">Base 64</option>
+            </select>
+           
+            <input class="invisivel" type="number" id="passoInput" placeholder="Digite o Incremento">
+        </div>   
+            
+            <div class="radio-personalizado">
+                <div class="codify">
+                    <input type="radio" id="codificado" name="codificar" value="codificado">
+                    <label for="codificado">CODIFICAR</label>
+                    <input type="radio" id="decodificado" name="codificar" value="decodificado">
+                    <label for="decodificado">DECODIFICAR</label>
+                    
+                </div>
+            </div>
+            
+            <button id="button-coringa">Escolha</button>
+
+            <textarea placeholder="Sua mensagem irá aparecer aqui" id="resultado" readonly="" disabled=""></textarea>
+
+        </div>
+
+    </form>
+
+</main>
+  
+</body>
+</html>
