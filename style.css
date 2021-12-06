@@ -133,3 +133,38 @@ select{
     background-color:rgb(56, 6, 56);
 }
 
+@media only screen and (max-width: 1300px){
+
+    .formulario{
+
+        width: 40vw;
+    }
+
+}
+
+@media only screen and (max-width: 1056px){
+
+    .formulario{
+
+        width: 40vw;
+    }
+
+}
+
+@media only screen and (max-width: 510px){
+
+    .formulario{
+
+        width: 70vw;
+    }
+
+}
+
+@media only screen and (max-width: 640px){
+
+    .formulario{
+
+        width: 60vw;
+    }
+
+}
